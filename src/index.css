@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Outfit:wght@100..900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar styling for the main page only */
+html {
+  scrollbar-color: #888 #f0f0f0; 
+  scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+
+a.active hr {
+    display: block;
+}
+
+* {
+    font-family: Outfit;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width:640px) {
+    a.active {
+        background-color: black;
+        color: white;
+    }
+}
