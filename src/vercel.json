@@ -1,0 +1,40 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/collection",
+            "dest": "/"
+        },
+        {
+            "src": "/about",
+            "dest": "/"
+        },
+        {
+            "src": "/contact",
+            "dest": "/"
+        },
+        {
+            "src": "/product/:productId",
+            "dest": "/"
+        },
+        {
+            "src": "/cart",
+            "dest": "/"
+        },
+        {
+            "src": "/login",
+            "dest": "/"
+        },
+        {
+            "src": "/place-order",
+            "dest": "/"
+        },
+        {
+            "src": "/orders",
+            "dest": "/"
+        }
+    ]
+}
