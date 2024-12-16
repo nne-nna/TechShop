@@ -1,40 +1,40 @@
 {
     "rewrites": [
         {
-            "src": "/",
-            "dest": "/"
+            "source": "/",
+            "destination": "/"
         },
         {
-            "src": "/collection",
-            "dest": "/"
+            "source": "/collection",
+            "destination": "/"
         },
         {
-            "src": "/about",
-            "dest": "/"
+            "source": "/about",
+            "destination": "/"
         },
         {
-            "src": "/contact",
-            "dest": "/"
+            "source": "/contact",
+            "destination": "/"
         },
         {
-            "src": "/product/:productId",
-            "dest": "/"
+            "source": "/product/:productId",
+            "destination": "/"
         },
         {
-            "src": "/cart",
-            "dest": "/"
+            "source": "/cart",
+            "destination": "/"
         },
         {
-            "src": "/login",
-            "dest": "/"
+            "source": "/login",
+            "destination": "/"
         },
         {
-            "src": "/place-order",
-            "dest": "/"
+            "source": "/place-order",
+            "destination": "/"
         },
         {
-            "src": "/orders",
-            "dest": "/"
+            "source": "/orders",
+            "destination": "/"
         }
     ]
 }
