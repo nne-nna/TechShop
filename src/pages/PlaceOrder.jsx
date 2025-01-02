@@ -86,7 +86,7 @@ const PlaceOrder = () => {
               text1={'PAYMENT'}
               text2={'METHOD'}
             />
-            {/* PAYMENT METHOD SELECTION */}
+            {/* CODE FOR THE PAYMENT METHOD SELECTION */}
             <div className='flex gap-3 flex-col lg:flex-row'>
                 <div
                     onClick={() => setMethod('stripe')} 
